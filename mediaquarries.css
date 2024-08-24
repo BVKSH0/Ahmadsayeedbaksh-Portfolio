@@ -27,9 +27,6 @@
   .section-container {
     display: block;
   }
-  .arrow {
-    display: none;
-  }
   section,
   .section-container {
     height: fit-content;
@@ -47,6 +44,7 @@
   }
 }
 
+
 @media screen and (max-width: 600px) {
   #contact,
   footer {
@@ -63,6 +61,11 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
+
+  .gtkm {
+    margin-top: 5rem;
+  }
+
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
@@ -101,4 +104,3 @@
     text-align: justify;
   }
 }
-  
