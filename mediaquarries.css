@@ -66,6 +66,10 @@
     margin-top: 5rem;
   }
 
+  .gmail {
+    font-size: 20px;
+  }
+
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
@@ -106,4 +110,29 @@
   .text-container {
     text-align: justify;
   }
+}
+
+@media screen and (max-width: 450px) { 
+
+  
+  .gmail {
+    font-size: 12px;
+  }
+
+}
+@media screen and (max-width: 350px) { 
+
+  
+  .gmail {
+    font-size: 11px;
+  }
+
+}
+@media screen and (max-width: 320px) { 
+
+  
+  .gmail {
+    font-size: 9px;
+  }
+
 }
