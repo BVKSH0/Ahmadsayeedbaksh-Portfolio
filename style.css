@@ -107,13 +107,13 @@ a:hover {
   width:fit-content;
   overflow: hidden;
 
-  background-color: #fff;
+  background-color: rgb(223, 223, 223);
   transition: all 0.3 ease-in-out;
 } 
 
 .menu-links a {
   display: block;
-  padding: 10px;
+  padding: 13px 25px;
   text-align: center;
   font-size: 1.5rem;
   color: black;
