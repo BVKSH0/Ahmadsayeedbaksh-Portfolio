@@ -479,6 +479,10 @@ article .icon {
   height: 2.1rem;
 }
 
+.contact-divider {
+  margin-top: 8px;
+}
+
 /* FOOTER SECTION */
 
 footer {
