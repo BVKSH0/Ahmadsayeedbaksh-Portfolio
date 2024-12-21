@@ -1,10 +1,8 @@
 /*General*/
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -32,10 +30,10 @@ a,
 
 /* DESKTOP-NAV */
 
-nav, .nav-links  {
+nav,
+.nav-links {
   display: flex;
 }
-
 
 nav {
   justify-content: space-around;
@@ -69,7 +67,6 @@ a:hover {
   cursor: default;
 }
 
-
 /* HAMBURGER MENU */
 
 #hamburger-nav {
@@ -77,7 +74,7 @@ a:hover {
 }
 
 .hamburger-menu {
-  position: relative; 
+  position: relative;
   display: inline-block;
 }
 
@@ -99,17 +96,17 @@ a:hover {
 
 .menu-links {
   position: absolute;
-  
+
   top: 100%;
   right: 0;
 
   max-height: 0;
-  width:fit-content;
+  width: fit-content;
   overflow: hidden;
 
   background-color: rgb(223, 223, 223);
   transition: all 0.3 ease-in-out;
-} 
+}
 
 .menu-links a {
   display: block;
@@ -172,11 +169,12 @@ section {
 #profile {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5rem;
   height: 80vh;
 }
 
-.typing-text{
+.typing-text {
   font-family: "poppins", sans-serif;
   display: inline;
   font-size: 14px;
@@ -184,37 +182,42 @@ section {
   min-width: 280px;
 }
 
-.typing-text span{
+.typing-text span {
   position: relative;
 }
 
-.typing-text span::before{
+.typing-text span::before {
   content: "software Developer";
   color: rgb(85, 85, 85);
   animation: words 20s infinite;
 }
 
-@keyframes cursor{
-  to{
-      border-left: 3px solid;
+@keyframes cursor {
+  to {
+    border-left: 3px solid;
   }
 }
 
-@keyframes words{
-  0%, 20%{
-      content: "Hello,";
+@keyframes words {
+  0%,
+  20% {
+    content: "Hello,";
   }
-  21%, 40%{
-      content: "ٱلسَّلَامُ عَلَيْكُمْ";
+  21%,
+  40% {
+    content: "ٱلسَّلَامُ عَلَيْكُمْ";
   }
-  41%, 60%{
-      content: "আসসালামু আলাইকুম,";
+  41%,
+  60% {
+    content: "আসসালামু আলাইকুম,";
   }
-  61%, 80%{
-      content: "Bonjour,";
+  61%,
+  80% {
+    content: "Bonjour,";
   }
-  81%, 100%{
-      content: "सलाम अलैकुम,";
+  81%,
+  100% {
+    content: "सलाम अलैकुम,";
   }
 }
 
@@ -235,7 +238,7 @@ section {
 }
 
 .section__text__p1 {
- text-align: center;
+  text-align: center;
 }
 
 .section__text__p2 {
@@ -244,8 +247,8 @@ section {
 }
 
 .title {
-  font-family: "Montserrat","poppins", sans-serif;
-  font-size:3rem;
+  font-family: "Montserrat", "poppins", sans-serif;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -266,7 +269,6 @@ section {
   cursor: pointer;
   height: 2rem;
 }
-
 
 /* BUTTONS */
 
@@ -301,18 +303,18 @@ section {
 }
 
 .btn-color-1:hover {
-  background:rgb(0, 76, 143) ;
+  background: rgb(0, 76, 143);
 }
 
 .btn-color-2 {
-  background: none ;
+  background: none;
 }
 .btn-color-2:hover {
-  background:rgb(255,255,255) 1rem solid ;
+  background: rgb(255, 255, 255) 1rem solid;
 }
 
 .btn-container {
-  gap:1rem;
+  gap: 1rem;
 }
 
 /* ABOUT SECTION */
@@ -332,7 +334,8 @@ section {
   flex-direction: column;
 }
 
-.about-containers,.about-details-containers {
+.about-containers,
+.about-details-containers {
   display: flex;
 }
 
@@ -343,7 +346,7 @@ section {
 
 .details-container {
   border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163,163,163);
+  border-color: rgb(163, 163, 163);
   border-radius: 2rem;
 
   background: white;
@@ -362,10 +365,9 @@ section {
 .section__pic-container {
   height: 400px;
   width: 400px;
-  margin: 0 auto; 
+  margin: 0 auto;
   /* auto 0 ase script o  */
 }
-
 
 /* EXPERIENCE  */
 
@@ -418,7 +420,7 @@ article .icon {
 }
 
 .project-img {
-  border: 1px solid rgb(85,85,85);
+  border: 1px solid rgb(85, 85, 85);
   border-radius: 2rem;
   width: 90%;
   height: 90%;
