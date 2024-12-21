@@ -44,7 +44,6 @@
   }
 }
 
-
 @media screen and (max-width: 600px) {
   #contact,
   footer {
@@ -75,7 +74,7 @@
   .btn-container {
     flex-wrap: wrap;
   }
-  .about-containers{
+  .about-containers {
     flex-direction: column;
   }
   .contact-info-container {
@@ -112,27 +111,18 @@
   }
 }
 
-@media screen and (max-width: 450px) { 
-
-  
+@media screen and (max-width: 450px) {
   .gmail {
     font-size: 12px;
   }
-
 }
-@media screen and (max-width: 350px) { 
-
-  
+@media screen and (max-width: 350px) {
   .gmail {
     font-size: 11px;
   }
-
 }
-@media screen and (max-width: 320px) { 
-
-  
+@media screen and (max-width: 320px) {
   .gmail {
     font-size: 9px;
   }
-
 }
